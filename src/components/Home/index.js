@@ -2,9 +2,8 @@ import React from 'react'
 import Banner from '../Banner'
 import Element from '../Element'
 
-function Layout() {
+function Home() {
   
-  const styles = {fontFamily: 'Grand Hotel'}
 
   return (
     <section className='mt-36  md:mt-2 h-screen w-full flex justify-start items-center'>
@@ -12,26 +11,10 @@ function Layout() {
     <section className="flex  justify-start">
             <section className=" flex md:mt-36">      
               {/* html */}
-                    <section className="items-center w-10 mr-0 ml-0 flex flex-col p-0  h-screen">
-                        <span className=' text-xs' style={styles}>&#60;html&#62;</span>
+              <Element  boilerplateElement='html'/>
         
-                        <div className='border border-[#707070] border-l flex grow'></div>
-        
-                        <span className=' text-xs' style={styles}>&#60;/html&#62;</span>
-                    </section>
-        
-        
-    
-               {/* body */}
-               <section className=" my-3 mr-0 ml-0 flex w-full   h-100" style={styles}>
-                   <section className="flex items-center flex-col  text-xs h-75">
-                      <span className=' text-xs' style={styles}>&#60;body&#62;</span>
-                        <div className='border text-xs border-[#707070] border-l flex grow '></div>
-                        <span className=' text-xs' style={styles}>&#60;/body&#62;</span>
-                   </section>
-
-                </section>
-
+              {/* body */}
+              <Element  boilerplateElement='body'/>
            </section>
 
   </section>
@@ -73,4 +56,4 @@ function Layout() {
   )
 }
 
-export default Layout
+export default Home

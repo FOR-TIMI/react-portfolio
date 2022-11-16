@@ -2,7 +2,7 @@ import './App.css';
 import Nav from '../src/components/Nav'
 import React,{useState} from 'react'
 import ScrollToTop from './components/ScrollToTop';
-import Layout from './components/Layout';
+import Home from './components/Home';
 
 function App() {
   
@@ -14,7 +14,7 @@ function App() {
       <main className='md:container mx-auto md:w-4/5'>
 
       {/* html tags */}
-      <Layout/>
+      <Home/>
 
       {/* Banner */}
 
