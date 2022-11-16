@@ -1,5 +1,4 @@
 import React,{useState,useEffect} from 'react';
-import './index.css'
 
 
 function Nav(){
@@ -30,14 +29,16 @@ function Nav(){
   }, [])
  
    
+  const styles = {fontFamily: 'Grand Hotel'}
+  
 
 
    return (
-    <header className={`header transition-all duration-300 ease-in ${isScrolled ? 'md:drop-shadow-2xl' : 'py-1 '} fixed w-full flex` }>
-        <nav className='flex items-center flex-col  md:flex-row  md:justify-around container p-3 md:p-0 '>
+    <header className={`bg-[#1a1a1a] w-full transition-all duration-300 ease-in ${isScrolled ? 'md:drop-shadow-2xl' : 'py-1 '} fixed top-0 w-full block` }>
+        <nav className='flex  items-center flex-col w-full  md:flex-row  md:justify-around p-3 md:p-0 '>
             {/* logo */}
             <section className="nav-brand">
-              <a href='#' className='logo duration-500 text-white text-4xl hover:text-blue-500 transition-all '>Timi</a>
+              <a href='#' className=' duration-500 text-white text-4xl hover:text-blue-500 transition-all ' style={styles}>Timi</a>
 
             </section>
             
