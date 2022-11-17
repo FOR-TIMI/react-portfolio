@@ -4,7 +4,7 @@ import React,{useState,useEffect} from 'react';
 function Nav(){
    const links = [
      { name: 'About', link : '#'},
-     {name: 'Portfolio' ,link: '#porfolio'},
+     {name: 'Portfolio' ,link: '#portfolio'},
      {name: 'Contact', link: '#contact'}
    ] 
 
@@ -12,7 +12,7 @@ function Nav(){
 
 
    const toggleNavBar = () => {
-     if(window.pageYOffset > 200){
+     if(window.pageYOffset > 50){
        setIsScrolled(true)
      } else{
        setIsScrolled(false)
@@ -34,7 +34,7 @@ function Nav(){
 
 
    return (
-    <header className={`bg-[#1a1a1a] w-full transition-all duration-300 ease-in ${isScrolled ? 'md:drop-shadow-2xl' : 'py-1 '} fixed top-0 w-full block` }>
+    <header className={`w-full z-50 transition-all duration-300 ease-in ${isScrolled ? 'md:drop-shadow-2xl bg-[#181818]' : 'py-1 '} fixed top-0 w-full block` }>
         <nav className='flex  items-center flex-col w-full  md:flex-row  md:justify-around p-3 md:p-0 '>
             {/* logo */}
             <section className="nav-brand">
@@ -52,9 +52,9 @@ function Nav(){
             </ul>
             
             {/* Resume Button  */}
-            <button className='hover:text-blue-500 sm:my-3 duration-500 transition-all ease-in md:border md:py-2 md:px-5 md:border-blue-500 md:text-blue-500 md:hover:bg-blue-500 md:hover:text-white'>
+            <a href='#' className='hover:text-blue-500 sm:my-3 duration-500 transition-all ease-in md:border md:py-2 md:px-5 md:border-blue-500 md:text-blue-500 md:hover:bg-blue-500 md:hover:text-white'>
                 Resume
-            </button>
+            </a>
         </nav>
     </header>
    )

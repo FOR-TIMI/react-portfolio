@@ -1,8 +1,10 @@
 import './App.css';
 import Nav from '../src/components/Nav'
-import React,{useState} from 'react'
+import React from 'react'
 import ScrollToTop from './components/ScrollToTop';
 import Home from './components/Home';
+
+
 
 function App() {
   
@@ -19,6 +21,8 @@ function App() {
       {/* Banner */}
 
       {/* Portfolio */}
+     
+    
 
       {/* About */}
 

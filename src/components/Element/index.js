@@ -9,7 +9,7 @@ function Element({ htmlElement, boilerplateElement}) {
       <section className=" my-3 mr-0 ml-0 flex w-full   h-100" style={styles}>
       <section className="flex items-center flex-col  text-xs h-75">
       <span className=' text-xs' style={styles}>&#60;body&#62;</span>
-      <div className='border text-xs border-[#707070] border-l flex grow '></div>
+      <div className='border border-[#707070] border-l flex grow '></div>
       <span className=' text-xs' style={styles}>&#60;/body&#62;</span>
       </section>
 
@@ -17,7 +17,7 @@ function Element({ htmlElement, boilerplateElement}) {
    ),
 
       html: (
-          <section className="items-center w-10 mr-0 ml-0 flex flex-col p-0  h-screen">
+          <section className="items-center mr-0 ml-0 flex flex-col p-0 mb-2  h-screen">
           <span className=' text-xs' style={styles}>&#60;html&#62;</span>
           <div className='border border-[#707070] border-l flex grow'></div>
           <span className=' text-xs' style={styles}>&#60;/html&#62;</span>
