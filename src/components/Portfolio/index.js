@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../card'
+import Project from '../Project'
 import Element from '../Element'
 
 
@@ -36,10 +36,12 @@ function Portfolio() {
 
       <section className='flex'>
         <Element htmlElement='p'/>
-        <p className='w-100 md:w-9/12 text-white p-4'>Only a small selection of my latest work is displayed here. 
+        <p className='max-w-full md:w-9/12 text-sm md:text-lg text-white pl-4 py-4'>Only a small selection of my latest work is displayed here. 
           Together with a few incredible individuals, I worked on all.
           In relation to the complete list, it is but a drop in the bucket.
-          To see some more, checkout my <a translate='_blank'  rel="noopener noreferrer" className='text-blue-500 hover:text-blue-300 transition-all duration-300' href="https://github.com/FOR-TIMI?tab=repositories">Github</a> page
+          To see some more, checkout my <a target="_blank" 
+                      rel="noopener noreferrer" 
+            className='text-blue-500 hover:text-blue-300 transition-all duration-300' href="https://github.com/FOR-TIMI?tab=repositories">Github</a> page
         </p>
 
       </section>
@@ -52,14 +54,18 @@ function Portfolio() {
 
               {projects.map(({name,tools,link}) => (
                 <section key={name}>
-                  <Card name={name} link={link} tools={tools}/>
+                  <Project name={name} link={link} tools={tools}/>
                 </section>
               ))
               }
 
             </section>
                    {/* View more Button  */}
-            <a translate='_blank'  rel="noopener noreferrer"  href='https://github.com/FOR-TIMI?tab=repositories' className='text-blue-500 w-36 mt-5  px-5 py-2 duration-500 transition-all ease-in border  border-blue-500 hover:bg-blue-500 hover:text-white'>
+            <a  href='https://github.com/FOR-TIMI?tab=repositories' 
+            className='ml-3 text-blue-500 w-36 mt-5  px-5 py-2 duration-500 transition-all ease-in border  border-blue-500 hover:bg-blue-500 hover:text-white'
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
                 view more
               </a>
                       

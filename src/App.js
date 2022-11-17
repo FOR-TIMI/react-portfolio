@@ -3,6 +3,8 @@ import Nav from '../src/components/Nav'
 import React,{useState} from 'react'
 import ScrollToTop from './components/ScrollToTop';
 import Home from './components/Home';
+import Footer from './components/Footer';
+
 
 
 function App() {
@@ -13,15 +15,14 @@ function App() {
       {/* Header */}
       <Nav/>
       <main className='md:container mx-auto md:w-4/5'>
-
-      {/* Home */}
-      <Home/>
-
-      <ScrollToTop/>
-        
+        {/* Home */}
+        <Home/>
+        {/* ScrollToTop button  */}
+        <ScrollToTop/>  
       </main>
 
       {/* footer */}
+      <Footer/>
        
     </section>
   );

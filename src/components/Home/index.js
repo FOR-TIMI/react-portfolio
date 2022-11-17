@@ -50,11 +50,13 @@ function Home() {
     
   </section>
 
-  {/* Portfolio  */}
-  <Portfolio/>
-  
+    
   {/* About  */}
   <About/>
+
+  {/* Portfolio  */}
+  <Portfolio/>
+
      
 
 

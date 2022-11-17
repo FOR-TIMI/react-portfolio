@@ -30,7 +30,7 @@ function ScrollToTop() {
   }, [])
 
   return (
-    <div className="fixed bottom-2 right-2">
+    <div className="fixed bottom-28 right-10">
       <button
         type="button"
         onClick={handleClick}

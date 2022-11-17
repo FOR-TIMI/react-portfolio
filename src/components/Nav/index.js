@@ -52,7 +52,11 @@ function Nav(){
             </ul>
             
             {/* Resume Button  */}
-            <a href='#' className='hover:text-blue-500 sm:my-3 duration-500 transition-all ease-in md:border md:py-2 md:px-5 md:border-blue-500 md:text-blue-500 md:hover:bg-blue-500 md:hover:text-white'>
+            <a href='https://1drv.ms/b/s!AjKXavfHzDrCcUu_D3pOjSFcq5M?e=3HuJse' 
+            className='hover:text-blue-500 sm:my-3 duration-500 transition-all ease-in md:border md:py-2 md:px-5 md:border-blue-500 md:text-blue-500 md:hover:bg-blue-500 md:hover:text-white'
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
                 Resume
             </a>
         </nav>

@@ -5,7 +5,7 @@ import Skill from '../Skill'
 function About() {
 
   return (
-    <section className='h-screen pt-36 md:pt-24' id='about'>
+    <section className='h-full mb-20 pt-52 md:pt-24' id='about'>
         {/* Title  */}
         <section className='flex'>
             <Element  htmlElement='h2'/>
@@ -14,9 +14,9 @@ function About() {
 
         {/* About text  */}
         <section className='flex flex-wrap justify-between'>
-           <section className="flex flex-start h-full md:w-1/2 my-3">
+           <section className="w-100 flex flex-start h-full md:w-1/2 my-3">
             <Element htmlElement='p'/>
-            <p className='px-4 py-28  text-white'>Hello, There. I'm Femi-Ladiran Erifeoluwa but everyone calls me Timi.
+            <p className='pl-4 py-3 text-sm md:text-lg md:py-20  text-white'>Hello, There. I'm Femi-Ladiran Erifeoluwa but everyone calls me Timi.
                 I am a Web Developer that specializes 
                 in building creative and intuitive 
                 full stack web applications . 
@@ -32,7 +32,7 @@ function About() {
            </section>
 
            {/* skill globe  */}
-           <section className='md:w-1/2 content'>
+           <section className='hidden md:block md:w-1/2'>
               <Skill/>
            </section>
         </section>

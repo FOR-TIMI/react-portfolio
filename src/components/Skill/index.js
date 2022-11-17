@@ -5,9 +5,9 @@ function Skill() {
 
     const myTags = [
         'JavaScript', 'CSS', 'HTML',
-        'JSON', 'C++', 'React',
+         'C++', 'React',
         'Python', 'Java', 'git',
-        'django', 'Node.js', 'MongoDB',
+        'Node.js', 'MongoDB',
         'Express', 'MySQL', 'jQuery',
         'tailwind', 'GraphQl', 'REST',
     ];
