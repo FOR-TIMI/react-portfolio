@@ -15,7 +15,7 @@ function Card({name, link, tools}) {
         <a href={link}>
             <section className='bg-[#181818] cursor-pointer shadow-sm hover:shadow-md ease-in transition-all duration-300 hover:bg-[#282828] rounded-md w-[204px] h-[285px] flex flex-col items-center m-3 p-3'>
                     {/* card image  */}
-                    <section className='relative mb-3 '>
+                    <section className=' mb-3 '>
                         <section className="card-img w-[174px] h-[174px] rounded-md shadow-2xl shadow-black">
                                 <img className='h-full w-full object-cover rounded-md ' src={images[name]} alt={name}/>
                                 <img src="" alt=""/>

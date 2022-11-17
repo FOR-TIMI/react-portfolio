@@ -1,4 +1,5 @@
 import React from 'react'
+import About from '../About'
 import Banner from '../Banner'
 import Element from '../Element'
 import Portfolio from '../Portfolio'
@@ -48,7 +49,12 @@ function Home() {
     
     
   </section>
+
+  {/* Portfolio  */}
   <Portfolio/>
+  
+  {/* About  */}
+  <About/>
      
 
 

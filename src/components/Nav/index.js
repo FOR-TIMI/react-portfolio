@@ -3,7 +3,7 @@ import React,{useState,useEffect} from 'react';
 
 function Nav(){
    const links = [
-     { name: 'About', link : '#'},
+     { name: 'About', link : '#about'},
      {name: 'Portfolio' ,link: '#portfolio'},
      {name: 'Contact', link: '#contact'}
    ] 

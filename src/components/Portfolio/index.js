@@ -28,7 +28,7 @@ function Portfolio() {
    }, 
 ]
   return (
-    <section className='h-screen pt-36 md:pt-28' id='portfolio'>
+    <section className='h-full pt-36 md:pt-24' id='portfolio'>
       <section className='flex'>
       <Element  htmlElement='h2'/>
       <h2 className='p-4 text-blue-500 text-2xl font-semibold '>Portfolio</h2>
