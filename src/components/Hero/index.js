@@ -1,6 +1,6 @@
 import React from 'react'
 import Element from '../Element'
-
+import { Link } from 'react-scroll';
 
 
 function Hero() {
@@ -37,10 +37,17 @@ function Hero() {
   <p className=' py-3'>Front-End/Back-End Developer</p>
 </section> 
 
-{/* Resume Button  */}
-<a href='#' className='ml-7 mt-8 duration-500 transition-all ease-in border py-2 px-5 hover:bg-transparent  border-blue-500 hover:text-blue-500 bg-blue-500 text-white'>
+{/* contact Button  */}
+<Link 
+to='contact' 
+className='ml-7 cursor-pointer mt-8 duration-500 transition-all ease-in border py-2 px-5 hover:bg-transparent  border-blue-500 hover:text-blue-500 bg-blue-500 text-white'
+spy={true}
+smooth={true}
+duration={500}
+>
+
 Contact me
-</a>
+</Link>
 
 
 </section>
