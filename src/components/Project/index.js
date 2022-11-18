@@ -12,7 +12,7 @@ function Project({name, link, tools}) {
     }
 
   return (
-        <a href={link}>
+        <a href={link} target="_blank" rel="noopener noreferrer">
             <section className='bg-[#181818] cursor-pointer shadow-sm hover:shadow-md ease-in transition-all duration-300 hover:bg-[#282828] rounded-md w-[204px] h-[285px] flex flex-col items-center m-3 p-3'>
                     {/* Project image  */}
                     <section className=' mb-3 '>
