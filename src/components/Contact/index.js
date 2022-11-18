@@ -25,9 +25,9 @@ function Contact() {
 
 
   return (
-    <section id='contact' className='flex pt-44 md:pt-36 justify-between items-center h-full md:h-screen mb-6 md:mb-20'>
+    <section id='contact' className='flex pt-44 md:pt-36 justify-between items-center h-full md:h-screen mb-6 md:mb-20 w-full'>
 
-        <section className="flex flex-col w-1/2 pr-10">
+        <section className="flex flex-col md:w-1/2">
             <section className="flex">
                 <Element htmlElement='h2' />
                 <h2 className='p-4 text-blue-500 text-2xl font-semibold '>Contact</h2>
@@ -36,13 +36,13 @@ function Contact() {
                 <Element htmlElement='form'/>
                 {/* form */}
                 <form autoComplete='off' onSubmit={handleSubmit} className='py-10 pl-3 space-y-3 md:flex md:flex-col w-full'>               
-                    <section className='md:flex md:space-x-2 md:space-y-0 space-y-3'>
+                    <section className='md:flex md:space-x-2 md:space-y-0 w-10/12 md:w-full '>
                   
                     {/* Name  */}
-                    <section className='h-full mb-3 flex flex-col'>
+                    <section className='h-full flex flex-col flex-grow w-100'>
 
                       {/* Name error message  */}
-                      <section className="h-8">
+                      <section className="h-8 w-full">
                       {errors.name && touched.name && <p className='text-sm text-rose-500'>{errors.name}</p>}
                       </section>
 
@@ -50,7 +50,7 @@ function Contact() {
                       <input 
                         type="text" 
                         className={`px-5 py-2 text-white flex-grow bg-transparent border border-blue-500 
-                                  outline-none  transition-all duration-500 ease-in h-3/4
+                                  outline-none  transition-all duration-500 ease-in h-3/4 
                             ${errors.name && touched.name ? "border border-rose-500 text-rose-500" : "focus:border-none focus:outline-blue-500"}
                                   `}  
                         placeholder='Name' 
@@ -63,16 +63,16 @@ function Contact() {
                     </section>
                     
                       {/* Email section  */}
-                      <section className='h-full  flex flex-col'>
+                      <section className='h-full  flex flex-col  w-full'>
                           
                             {/* Email error message  */}
-                            <section className="h-8">
-                             {errors.email && touched.email && <p className='text-sm h-8 text-rose-500'>{errors.email}</p>} 
+                            <section className="h-8 w-full">
+                             {errors.email && touched.email && <p className='text-sm text-rose-500'>{errors.email}</p>} 
                             </section>
                            {/* Email  */}
                           <input type="email"  
                             className={`px-5 py-2 h-3/4 text-white flex-grow bg-transparent border border-blue-500 
-                                  outline-none transition-all duration-500 ease-in
+                                  outline-none transition-all duration-500 ease-in w-full
                                 ${errors.email && touched.email ? "border border-rose-500 text-rose-500" : "focus:border-none focus:outline-blue-500"}
                                     `}
                             id="email" 
