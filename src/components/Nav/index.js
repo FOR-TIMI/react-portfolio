@@ -45,7 +45,7 @@ function Nav(){
               style={styles}
               spy={true}
               smooth={true}
-            
+              to={''}
               duration={500}
               >
               Timi
@@ -62,7 +62,7 @@ function Nav(){
                   to={link} 
                   spy={true}
                   smooth={true}
-                  offset={30}
+                  offset={20}
                   duration={500}
                 >{name}</Link>
                 </li>

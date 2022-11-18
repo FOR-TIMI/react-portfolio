@@ -5,7 +5,7 @@ import Skill from '../Skill'
 function About() {
 
   return (
-    <section className='h-full mb-20 pt-52 md:pt-24' id='about'>
+    <section className='h-full mb-20 pt-52 md:pt-28' id='about'>
         {/* Title  */}
         <section className='flex'>
             <Element  htmlElement='h2'/>
