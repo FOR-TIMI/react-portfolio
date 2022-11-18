@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.bc81e0c9.css",
-    "main.js": "/react-portfolio/static/js/main.f104f9d5.js",
+    "main.css": "/react-portfolio/static/css/main.cc91db52.css",
+    "main.js": "/react-portfolio/static/js/main.6593c59e.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/AutoAuto.png": "/react-portfolio/static/media/AutoAuto.2a6ab0a243cec5fe1769.png",
     "static/media/Berg.png": "/react-portfolio/static/media/Berg.8dc65acc3f9337ab7456.png",
@@ -9,12 +9,12 @@
     "static/media/weatherApp.png": "/react-portfolio/static/media/weatherApp.70f49a16c2e7f23861bc.png",
     "static/media/Quiz.png": "/react-portfolio/static/media/Quiz.7cda937204f815aa0407.png",
     "index.html": "/react-portfolio/index.html",
-    "main.bc81e0c9.css.map": "/react-portfolio/static/css/main.bc81e0c9.css.map",
-    "main.f104f9d5.js.map": "/react-portfolio/static/js/main.f104f9d5.js.map",
+    "main.cc91db52.css.map": "/react-portfolio/static/css/main.cc91db52.css.map",
+    "main.6593c59e.js.map": "/react-portfolio/static/js/main.6593c59e.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc81e0c9.css",
-    "static/js/main.f104f9d5.js"
+    "static/css/main.cc91db52.css",
+    "static/js/main.6593c59e.js"
   ]
 }
