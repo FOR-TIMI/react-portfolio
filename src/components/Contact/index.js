@@ -21,7 +21,6 @@ function Contact() {
     onSubmit
   })
    
-  console.log(errors)
 
 
   return (
