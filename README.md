@@ -28,6 +28,11 @@ A responsive, single page application for developers to showcase their skills
 
 
 ## Screenshot
+- ![image](https://user-images.githubusercontent.com/104241247/202876038-93368a58-5aa6-4365-8224-ef1ef0400f3c.png)
+- ![image](https://user-images.githubusercontent.com/104241247/202876054-d5ab01fc-8fb9-451a-9694-dc4a4dcf3942.png)
+- ![image](https://user-images.githubusercontent.com/104241247/202876062-cbb7d386-c855-4e96-8508-b1874b4e9670.png)
+- ![image](https://user-images.githubusercontent.com/104241247/202876070-84ac2bd2-1ee1-4457-97a5-ab59aab7d9a4.png)
+
 
 
 ## Licenses
