@@ -10,7 +10,7 @@ Deployed React portfolio of work samples, about me, contact. single-page applica
 - [Contributions](#contribution)
 - [Licenses](#licenses)
 - [Questions](#questions)
-- [live site](https://bloggersintech.herokuapp.com/login) // Checkout the deployed website 
+- [website link](https://for-timi.github.io/react-portfolio/) // Checkout the deployed website 
     
         
 ## Installation
