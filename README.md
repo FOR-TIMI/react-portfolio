@@ -1,4 +1,5 @@
-<h1 align="center"> REACT portfolio[Work In progress]  </h1>
+
+<div align="center">  <img src="https://github.com/FOR-TIMI/react-portfolio/blob/main/src/assets/Images/logo.svg" width="300px" height="150px"/> </div>
 
 ## Description
 Deployed React portfolio of work samples, about me, contact. single-page application portfolio for a web developer
