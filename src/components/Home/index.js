@@ -13,7 +13,6 @@ function Home() {
 
   return (
     <section>
-    
       <section className='mt-36  md:mt-0 h-screen xl:ml-10  w-full flex justify-start items-center'>
       {/* HTML and body tag  */}
       <HtmlTag/>  
