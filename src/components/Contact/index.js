@@ -2,6 +2,7 @@ import React from 'react'
 import Element from '../Element'
 import {useFormik } from 'formik'
 import {sendEmailSchema } from '../schemas'
+import Map from '../Map'
 
 function Contact() {
 
@@ -26,7 +27,7 @@ function Contact() {
   return (
     <section id='contact' className='flex pt-44 md:pt-36 justify-between items-center h-full md:h-screen mb-6 md:mb-20 w-full'>
 
-        <section className="flex flex-col md:w-1/2">
+        <section className="flex flex-col md:[40%]">
             <section className="flex">
                 <Element htmlElement='h2' />
                 <h2 className='p-4 text-blue-500 text-2xl font-semibold '>Contact</h2>
@@ -95,7 +96,7 @@ function Contact() {
 
                     <input type="text" 
                      className={`px-5 py-2 flex-grow text-white bg-transparent border  border-blue-500 
-                                 outline-none transition-all duration-500 ease-in
+                                 outline-none transition-all duration-500 ease-in w-[83%] md:w-[100%]
                                 ${errors.subject && touched.subject ? "border border-rose-500 text-rose-500" : "focus:border-none focus:outline-blue-500"}
                                `}  
                      placeholder='Subject'
@@ -112,9 +113,9 @@ function Contact() {
                     {errors.message && touched.message && <p className='text-sm text-rose-500'>{errors.message}</p>}
                     <textarea 
                       type="text" 
-                      className={`px-5 py-2 
+                      className={`px-5 py-2 w-[83%]
                       text-white flex-grow bg-transparent border border-blue-500 
-                      outline-none transition-all duration-500 ease-out
+                      outline-none transition-all duration-500 ease-out md:w-[100%]
                       ${errors.message && touched.message ? "border border-rose-500 text-rose-500" : "focus:border-none focus:outline-blue-500"}
                       resize-none
                       ` } 
@@ -140,9 +141,8 @@ function Contact() {
             </section>
         </section>
     
-        <section className='hidden border border-white md  md:w-1/2 md:h-screen'>
-
-
+        <section className='hidden border border-white md:block  md:w-1/2 md:h-screen'>
+              <Map/>
         </section>
     </section>
   )
