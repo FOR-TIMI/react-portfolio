@@ -29,9 +29,9 @@ A responsive, single page application for developers to showcase their skills
 
 
 ## Screenshot
-- ![image](https://user-images.githubusercontent.com/104241247/202876038-93368a58-5aa6-4365-8224-ef1ef0400f3c.png)
-- ![image](https://user-images.githubusercontent.com/104241247/202876054-d5ab01fc-8fb9-451a-9694-dc4a4dcf3942.png)
-- ![image](https://user-images.githubusercontent.com/104241247/202876062-cbb7d386-c855-4e96-8508-b1874b4e9670.png)
+- ![image](https://user-images.githubusercontent.com/104241247/208250620-af82138b-a14d-4610-9f96-52494ec1415c.png)
+- ![image](https://user-images.githubusercontent.com/104241247/208250632-09351103-c103-4746-bd2e-03e734e64354.png)
+- ![image](https://user-images.githubusercontent.com/104241247/208250669-5d851b76-3b44-47e1-bdd5-930497a62369.png)
 - ![image](https://user-images.githubusercontent.com/104241247/202876070-84ac2bd2-1ee1-4457-97a5-ab59aab7d9a4.png)
 
 
