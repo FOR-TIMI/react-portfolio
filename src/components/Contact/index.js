@@ -141,7 +141,7 @@ function Contact() {
             </section>
         </section>
     
-        <section className='hidden border border-white md:block  md:w-1/2 md:h-screen'>
+        <section className='hidden lg:block  lg:w-1/2 lg:h-[80vh]'>
               <Map/>
         </section>
     </section>
