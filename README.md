@@ -32,7 +32,7 @@ A responsive, single page application for developers to showcase their skills
 - ![image](https://user-images.githubusercontent.com/104241247/208250620-af82138b-a14d-4610-9f96-52494ec1415c.png)
 - ![image](https://user-images.githubusercontent.com/104241247/208250632-09351103-c103-4746-bd2e-03e734e64354.png)
 - ![image](https://user-images.githubusercontent.com/104241247/208250669-5d851b76-3b44-47e1-bdd5-930497a62369.png)
-- ![image](https://user-images.githubusercontent.com/104241247/202876070-84ac2bd2-1ee1-4457-97a5-ab59aab7d9a4.png)
+- ![image](https://user-images.githubusercontent.com/104241247/208513886-a214af75-ab7d-4ee2-accb-c73bd838ee25.png)
 
 
 
