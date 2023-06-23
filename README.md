@@ -15,7 +15,7 @@ Deployed portfolio of work samples, about me, contact. single-page application p
     
         
 ## Installation
-To set up and utilise this project. Take the following steps.
+To set up and utilise this project locally, Take the following steps.
 
 - Step 1: Clone this repository
 - ![image](https://user-images.githubusercontent.com/104241247/202819291-44edf534-7d4f-462a-a1d5-a20f00a0ecd6.png)
