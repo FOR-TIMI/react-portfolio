@@ -2,7 +2,7 @@
 <div align="center">  <img src="https://github.com/FOR-TIMI/react-portfolio/blob/main/src/assets/Images/logo.svg" width="300px" height="150px"/> </div>
 
 ## Description
-Deployed portfolio of work samples, about me, contact. single-page application portfolio for a full stack web developer built using react
+Deployed portfolio of work samples, about me, contact. <br/> portfolio built using react
 
     
 ## Table of Content
